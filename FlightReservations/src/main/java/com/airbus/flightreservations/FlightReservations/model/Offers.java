@@ -12,7 +12,7 @@ public class Offers {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long airport_id;
+    private Long offer_id;
 
     @NotNull
     private String description;
